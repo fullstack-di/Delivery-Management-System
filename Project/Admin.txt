@@ -1,0 +1,3 @@
+GET /orders
+PATCH /orders/:id/assign-buyer
+GET /orders/:id/details

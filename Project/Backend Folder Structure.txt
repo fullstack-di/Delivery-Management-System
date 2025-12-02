@@ -1,0 +1,8 @@
+backend/
+  src/
+    controllers/
+    routes/
+    models/
+    middleware/auth.ts
+    config/db.ts
+    server.ts

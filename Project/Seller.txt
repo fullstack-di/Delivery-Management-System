@@ -1,0 +1,3 @@
+GET /orders/seller
+PATCH /orders/:id/next-stage   // move forward
+DELETE /orders/:id             // delete

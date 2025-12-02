@@ -1,0 +1,29 @@
+{
+  _id: ObjectId,
+  buyerId: ObjectId | null,
+  sellerId: ObjectId | null,
+  items: string[],
+  stage: number, // stage 1-7
+  stageName: string, // enum of stage list
+  timestamps: {
+    orderPlaced: Date,
+    buyerAssociated: Date,
+    processing: Date,
+    packed: Date,
+    shipped: Date,
+    outForDelivery: Date,
+    delivered: Date
+  },
+  history: [
+      {
+        action: string,
+        userId: ObjectId,
+        timestamp: Date,
+        fromStage?: string,
+        toStage?: string
+      }
+  ],
+  deleted: boolean,
+  createdAt: Date,
+  updatedAt: Date
+}

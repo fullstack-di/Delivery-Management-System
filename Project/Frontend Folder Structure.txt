@@ -1,0 +1,9 @@
+frontend/
+  src/
+    components/
+    pages/
+      buyer/
+      seller/
+      admin/
+    context/authContext.tsx
+    utils/socket.ts

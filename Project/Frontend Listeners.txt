@@ -1,0 +1,3 @@
+socket.on("orderUpdated", (updatedOrder) => {
+   setOrders(prev => replace with updatedOrder)
+})
